@@ -1,0 +1,92 @@
+/*header*/
+header{
+    width: 100%;
+    background-color: #fff;
+}
+.header li{
+    list-style: none;
+}
+.logo-image{
+    width: 150px;
+    height: auto;
+    padding-bottom: 10px;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 25px;
+}
+.header-item{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.header-item li{
+    margin: 0 10px;
+}
+/*Titulos e imagenes de comida*/
+.main-container{
+    height: 80vh;
+}
+#container{
+    display: flex;
+    justify-content: space-around;
+}
+img{
+    height: 200px;
+    border-radius: 10px;
+}
+h1,h3,p{
+    text-align: center;
+}
+div h1{
+    background-color: rgb(47, 158, 185);
+    padding: 20px;
+    color: white;
+    margin-bottom: 50px;
+}
+/*Carrusel*/
+.card{
+    background-color: #fff;
+    border-radius: 10px;
+    height: 300px;
+    padding: 40px;
+    margin: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mycarousel{
+    padding-top: 70px;
+    width: 100%;
+    margin: 0 auto;
+}
+.mycarousel img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+}
+.mycarousel p{
+    margin: 5px;
+}
+/*Footer*/
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    min-height: 80px;
+    background-color: #c0c0c0;
+}
+.copyright p{
+    margin-bottom: 0;
+    color: #6c757d;
+}
+.copyright a{
+    text-decoration: none;
+    color: #155fa5;
+}
+.copyright a:hover{
+    text-decoration: underline;
+}
