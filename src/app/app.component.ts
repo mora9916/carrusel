@@ -83,6 +83,20 @@ export class AppComponent {
       this.img6 = "/cafefrio.jpg";
       this.information6 = "capuchino caramelo <br> $65.00";
       break;
+    case 4:
+      this.img1 = "/sprite-botella.jpg";
+      this.information1 = "Refresco Sprite 600 ml <br> $35.00";
+      this.img2 = "/mundet-botella.jpg";
+      this.information2 = "Refresco Sidral Mundet 600 ml <br> $30.00";
+      this.img3 = "/jarritos-botella.jpg";
+      this.information3 = "Refresco Jarritos Mandarina 600 ml <br> $25.00";
+      this.img4 = "/coca-botella.jpg";
+      this.information4 = "Refresco Coca Cola 600 ml <br> $35.00";
+      this.img5 = "/manzanita-botella.jpg";
+      this.information5 = "Refresco Manzanita Sol 600 ml <br> $33.00";
+      this.img6 = "/pepsi-botella.jpg";
+      this.information6 = "Refresco Pepsi 600 ml <br> $33.00";
+      break;
     }//fin swith
   }//fin del metodo carrusel
 }
